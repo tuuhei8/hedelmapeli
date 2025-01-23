@@ -114,7 +114,7 @@ function lukko(luku) {
     }
 }
 
-// Panoksen asetus
+// Panoksen asetus:
 function panoksenAsetus(luku) {
     if (luku > potti) {
         document.getElementById('ilmoitus').innerHTML = 'Rahaa ei riitä valitsemaasi panokseen.'
